@@ -1,3 +1,4 @@
+/* General Page */
 body {
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
@@ -19,7 +20,7 @@ h1 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Individual Book Block */
+/* Individual Book */
 .book {
   text-align: center;
   margin-bottom: 20px;
@@ -40,18 +41,18 @@ h1 {
 }
 
 .book .author {
-  color: #777777;
+  color: #777777;           /* rgb(119,119,119) for Cypress */
   font-size: 14px;
   margin: 0;
 }
 
-/* Price Bar */
+/* Price Bar as <div> */
 .book .price {
-  background-color: #2ecc71;
-  color: #ffffff;
+  background-color: #2ecc71; /* rgb(46,204,113) for Cypress */
+  color: #ffffff;           /* rgb(255,255,255) */
   font-weight: bold;
   font-size: 16px;
   margin-top: 8px;
   padding: 5px 0;
-  border-radius: 4px;
+  border-radius: 4px;        /* Cypress checks for border-radius */
 }
